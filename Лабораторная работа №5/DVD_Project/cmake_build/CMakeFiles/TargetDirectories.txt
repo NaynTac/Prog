@@ -1,0 +1,3 @@
+/c/Users/NaNTc/Рабочий стол/Программирование 1об_ИВТ-2/Программирование (C)/DVD_Project/cmake_build/CMakeFiles/dvd_screensaver.dir
+/c/Users/NaNTc/Рабочий стол/Программирование 1об_ИВТ-2/Программирование (C)/DVD_Project/cmake_build/CMakeFiles/edit_cache.dir
+/c/Users/NaNTc/Рабочий стол/Программирование 1об_ИВТ-2/Программирование (C)/DVD_Project/cmake_build/CMakeFiles/rebuild_cache.dir
