@@ -6,24 +6,26 @@
 #include <SDL2/SDL_image.h>
 
 
-#define WINDOW_TITLE "DVD Screensaver"
-#define SCREEN_WIDTH 900
-#define SCREEN_HEIGHT 500
-#define IMAGE_FLAGS IMG_INIT_PNG
+#define WINDOW_TITLE "DVD Screensaver"  // Название окна
+#define SCREEN_WIDTH 900    // Ширина окна (в пикселях)
+#define SCREEN_HEIGHT 500   // Высота окна (в пикселях)
+#define IMAGE_FLAGS IMG_INIT_PNG    // Флаг для формата загружаемого изображения
 
 
+// Объект, который движется
 struct DVD_Object
 {
     SDL_Texture* object_image;
     SDL_Rect object_rect;
-    int object_xvel;
-    int object_yvel;
+    int object_xvel;    // Скорость по оси x
+    int object_yvel;    // Скорость по оси y
 };
 
+// Объект самой SDL-программы (окно и поверхность)
 struct Screensaver
 {
     SDL_Window* window;
-    SDL_Renderer* renderer;
+    SDL_Renderer* renderer; 
 };
 
 
