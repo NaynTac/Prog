@@ -1,0 +1,1 @@
+/ucrt64/bin/cc.exe -Wl,--enable-auto-import CMakeFiles/dvd_screensaver.dir/main.c.o CMakeFiles/dvd_screensaver.dir/graphics.c.o -o dvd_screensaver.exe -Wl,--out-implib,libdvd_screensaver.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
